@@ -7,6 +7,9 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
 }
+img {
+    display: block;
+}
 
 h2 {
     color: #2e2f42;
@@ -98,6 +101,9 @@ h2 {
     margin: 0 auto;
     border-radius: 4px;
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .hero-button:hover,
@@ -237,7 +243,7 @@ h2 {
     margin: 0 auto;
 }
 
-.header-div {
+.section-div {
     display: flex;
     flex-direction: column;
     padding-top: 188px;
@@ -267,15 +273,15 @@ h2 {
 }
 
 .section-our-features {
-    padding: 120px;
+    padding: 120px 0;
 }
 
 .section-our-team {
-    padding: 120px;
+    padding: 120px 0;
 }
 
 .section-our-portfolio {
-    padding: 120px;
+    padding: 120px 0;
 }
 
 .our-features-ul {
@@ -290,7 +296,7 @@ h2 {
     padding: 72px;
 }
 
-header {
+.containerbir {
     display: flex;
     width: 1158px;
     margin: 0 auto;
@@ -309,4 +315,8 @@ header {
     display: flex;
     list-style: none;
     gap: 40px;
+}
+
+header {
+    border-bottom: 1px solid #e7e9fc
 }
