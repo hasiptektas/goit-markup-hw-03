@@ -87,6 +87,7 @@ h2 {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    max-width: 496px;
 }
 
 .hero-button {
@@ -246,8 +247,7 @@ h2 {
 .section-div {
     display: flex;
     flex-direction: column;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding: 188px 0;
     width: 496px;
     margin: 0 auto;
 }
