@@ -171,7 +171,15 @@ img {
 }
 
 .visually-hidden {
-    visibility: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
 }
 
 .our-features-ul {
@@ -294,7 +302,7 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+    margin-bottom: 8px
 }
 
 /*********************-Footer-************************/
@@ -336,10 +344,4 @@ img {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
-}
-
-.footer .container .content .logo {
-    display: inline-block;
-    margin-bottom: 16px;
-
 }
