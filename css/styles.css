@@ -5,6 +5,10 @@ ul {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
 /*.container {
     width: 1158px;
     margin: 0 auto;
@@ -80,7 +84,7 @@ ul {
 
 .address-ul {
     display: flex;
-    /*gap: 40px;*/
+    gap: 40px;
 }
 
 .address-ul .list {
@@ -166,7 +170,7 @@ ul {
     padding: 0 15px;
 }
 
-.section-our-features .container h2 {
+.visually-hidden {
     visibility: hidden;
 }
 
@@ -290,6 +294,7 @@ ul {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    margin-bottom: 8px;
 }
 
 /*********************-Footer-************************/
@@ -321,10 +326,6 @@ ul {
     width: 1158px;
 }
 
-.footer .container .content {
-    max-width: 264px;
-}
-
 .footer .logo .span{
     color: #F4F4FD;
 }
@@ -334,6 +335,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
 
 .footer .container .content .logo {
